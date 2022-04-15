@@ -1,8 +1,0 @@
-name=Shapes
-author=Markieautarkie
-description=Drawing a bunch of shapes
-bundleID=com.organization.package
-version=0.0.1
-buildNumber=1
-pdxversion=10900
-buildtime=702910400
