@@ -68,4 +68,4 @@ luac.out
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,lua
 
 # Ignore builds directory
-.builds/
+builds/
