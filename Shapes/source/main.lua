@@ -5,6 +5,7 @@ import "CoreLibs/sprites"
 import "circle"
 import "rect"
 import "line"
+import "triangle"
 
 local pd <const> = playdate
 local gfx <const> = pd.graphics
@@ -22,6 +23,10 @@ local function initialize()
 	lineSprite1:add()
 	local lineSprite2 = Line(30, 45, 356, 200)
 	lineSprite2:add()
+	local triangleSprite1 = Triangle(0, 0, 200, 50, 100, 240)
+	triangleSprite1:add()
+	local triangleSprite2 = Triangle(50, 40, 400, 165, 360, 200)
+	triangleSprite2:add()
 end
 
 initialize()
