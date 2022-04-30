@@ -1,6 +1,7 @@
 local pd <const> = playdate
 local gfx <const> = pd.graphics
 
+-- Projectile class
 class("Projectile").extends(gfx.sprite)
 
 function Projectile:init(x, y, speed)
